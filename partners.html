@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-	crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
 	<script type="text/javascript" src="magicscroll/magicscroll.js"></script>
@@ -19,13 +17,13 @@
 	<div id="slideout-menu">
 		<ul>
 			<li>
-				<a href="index.html">Home</a>
+				<a href="index.html">Accueil</a>
 			</li>
 			<li>
-				<a href="gallery.html">Gallery</a>
+				<a href="gallery.html">Galerie</a>
 			</li>
 			<li>
-				<a href="partners.html">Partners</a>
+				<a href="partners.html">Partenaires</a>
 			</li>
 			<li>
 				<a href="contact.html">Contact</a>
@@ -44,13 +42,13 @@
 		</div>
 		<ul>
 			<li>
-				<a href="index.html">Home</a>
+				<a href="index.html">Accueil</a>
 			</li>
 			<li>
-				<a href="gallery.html">Gallery</a>
+				<a href="gallery.html">Galerie</a>
 			</li>
 			<li>
-				<a href="partners.html">Partners</a>
+				<a href="partners.html">Partenaires</a>
 			</li>
 			<li>
 				<a href="contact.html">Contact</a>
@@ -61,42 +59,402 @@
 	
   <main>
 
-  	/*
-  	<h2 class="section-heading" style="text-decoration: underline; margin-top:90px;margin-bottom:40px;position:relative;font-family: 'Playfair Display';font-size: 40px;">Our partners</h2>
-
-	<div class="MagicScroll" style="margin-bottom:30px;" data-options="mode: carousel; height: 300px;">
+	/*
+	<h2 class="section-heading" style="text-decoration: underline; margin-top:90px;margin-bottom:40px;position:relative;font-family: 'Playfair Display';font-size: 40px;">Nos partenaires</h2>
+	<p>Faire défiler -></p>
+	<div class="MagicScroll" data-options="mode: carousel; height: 300px;">
 		<img src="img/logos/belambra_clubs.jpg"/>
 		<img src="img/logos/best_western.jpg"/>
-		<img src="img/logos/brit.png"/>
-		<img src="img/logos/golden_tulip.png"/>
-		<img src="img/logos/holiday_inn.png"/>
-		<img src="img/logos/ibis_hotels.png"/>
-		<img src="img/logos/ibis_styles.png"/>
+		<img src="img/logos/brit.jpg"/>
+		<img src="img/logos/golden_tulip.jpg"/>
+		<img src="img/logos/holiday_inn.jpg"/>
+		<img src="img/logos/ibis_hotels.jpg"/>
+		<img src="img/logos/ibis_styles.jpg"/>
 		<img src="img/logos/kyriad.jpg"/>
 		<img src="img/logos/kyriad_prestige.jpg"/>
-		<img src="img/logos/labiomer.gif"/>
-		<img src="img/logos/m_gallery.png"/>
+		<img src="img/logos/labiomer.jpg"/>
+		<img src="img/logos/m_gallery.jpg"/>
 		<img src="img/logos/mercure_hotels_logo.jpg"/>
 		<img src="img/logos/millennium.jpg"/>
-		<img src="img/logos/novotel.png"/>
+		<img src="img/logos/novotel.jpg"/>
 		<img src="img/logos/partouche.jpg"/>
-		<img src="img/logos/relais&chateaux.png"/>
+		<img src="img/logos/relais&chateaux.jpg"/>
 		<img src="img/logos/timhotel.jpg">
+		<img src="img/logos/others.jpg">
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-1">
+		<ul>
+			<li>ANGLET</li>
+			<li>GIENS</li>
+			<li>GRUISAN</li>
+			<li>LES MATHES</li>
+			<li>ST JEAN DE MONT</li>
+			<li>LES SAISIES</li>
+			<li>SUPERBESSE</li>
+			<li>COLLE SUR LOUP</li>
+			<li>GUIDEL</li>
+			<li>LES TUQUETS</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-2">
+		<ul>
+			<li>BRUXELLES</li>
+			<li>GHISLEGHIEN</li>
+			<li>TOURS</li>
+			<li>LE MANS</li>
+			<li>MONT SAINT MICHEL</li>
+			<li>RENNES</li>
+			<li>ROUEN</li>
+			<li>ST MALO</li>
+			<li>SAUMUR</li>
+			<li>PARIS NOTRE DAME</li>
+			<li>TOUR EIFFEL</li>
+			<li>POITIERS</li>
+			<li>ROYAL SAINT JEAN</li>
+			<li>CAEN</li>
+			<li>BASTIA</li>
+			<li>EVREUX</li>
+			<li>GRANVILLE</li>
+			<li>CAP</li>
+			<li>CLERMONT-FERRAND</li>
+			<li>COMPIEGNE</li>
+			<li>MONTARGIS</li>
+			<li>BW DOMAINE DE LA PETITE ILE</li>
+			<li>BWPARADOU</li>
+			<li>PUTEAUX****</li>
+			<li>MERCEDES PARIS****</li>
+			<li>MONTPELLIER***</li>
+			<li>ANJOU****</li>
+			<li>LE MANS****</li>
+			<li>MANOSQUE***</li>
+			<li>CAMBRONNE***</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-3">
+		<ul>
+			<li>BLOIS</li>
+			<li>BORDEAUX</li>
+			<li>LA ROCHELLE</li>
+			<li>NANTES(3)</li>
+			<li>RENNES(3)</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-4">
+		<ul>
+			<li>BUSSY****</li>
+			<li>MARSEILLE****</li>
+			<li>AIX LESBAINS****</li>
+			<li>DOUARNENEZ****</li>
+			<li>BORDEAUX****</li>
+			<li>MARSEILLES****</li>
+			<li>ANVERS****</li>
+			<li>VARSOVIE****</li>
+		</ul>
+	</div>
+	<div class="info-partner" style="display:none;" id="partner-5">
+		<ul>
+			<li>CAEN****</li>
+			<li>BLOIS***</li>
+			<li>PARIS GARE DE LYON****</li>
+			<li>TOURS***</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-6">
+		<p>GROUPE VALOTEL</p>
+		<ul>
+			<li>NICE</li>
+			<li>GARE DE L’EST</li>
+			<li>TOULON(2)</li>
+		</ul>
+		<p>GROUPE DELACOU</p>
+		<ul>
+			<li>NANTES(2)</li>
+			<li>AURAY</li>
+		</ul>
+		<p>GROUPE LOREA</p>
+		<ul>
+			<li>ROUEN</li>
+			<li>MASSY</li>
+			<li>TOURS</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-7">
+		<p>GROUPE OREA NAZARELY</p>
+		<ul>
+			<li>LE BOURGET</li>
+			<li>LAFAYETTE</li>
+			<li>RAMADA</li>
+		</ul>
+
+		<p>GROUPE FERRE</p>
+		<ul>
+			<li>CHATEAUBRIAND</li>
+			<li>TOURS</li>
+			<li>SAINT BRIEUC</li>
+			<li>SAINT MALO</li>
+			<li>BORDEAUXLAC</li>
+			<li>FONTENAY</li>
+			<li>MONTPARNASSE</li>
+		</ul>
+
+		<p>GROUPE POMONA</p>
+		<ul>
+			<li>VELIZY</li>
+			<li>VAL DE REUIL</li>
+		</ul>
+
+		<p>GROUPE CGR</p>
+		<ul>
+			<li>LA ROCHELLE</li>
+		</ul>
+
+		<ul>
+			<li>GARE DU NORD</li>
+			<li>ANGOULEME</li>
+			<li>PARIS REPUBLIQUE</li>
+			<li>NANTES</li>
+			<li>HONFLEUR</li>
+			<li>LORIENT</li>
+			<li>ST GILLES</li>
+			<li>CROIX DE VIE</li>
+			<li>ANGOULEME***></li>
+		</ul>
+
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-8">
+		<ul>
+			<li>BOULOGNE</li>
+			<li>ROUEN</li>
+			<li>DIJON</li>
+			<li>PERIGUEUX</li>
+			<li>SAUMUR</li>
+			<li>LE MANS</li>
+			<li>LA ROCHELLE</li>
+			<li>AURAY</li>
+			<li>MARSEILLE</li>
+			<li>MONTELIMAR</li>
+			<li>SEDAN</li>
+			<li>DIJON</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-9">
+		<ul>
+			<li>KYRIAD LE BOURGET</li>
+			<li>KYRIAD AIX EN PROVENCE</li>
+			<li>KYRIAD PUTEAUX</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-10">
+		<ul>
+			<li>THALASSO BENODET</li>
+			<li>THALASSO ILE DE RE</li>
+			<li>CHATEAU DES TOURELLES PORNICHET****</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-11">
+		<ul>
+			<li>BALTHAZAR RENNES****</li>
+			<li>JULES CESAR ARLES CHRISTIAN LACROIX****</li>
+			<li>LA GRANDE TERRASSE CHATELAILLON****</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-12">
+		<p>GROUPE FERRE</p>
+		<ul>
+			<li>MERCURE LE MANS</li>
+			<li>MERCURE ANGERS</li>
+			<li>MERCURE ANGERS LAC</li>
+			<li>MERCURE RENNES PDB</li>
+			<li>HÔTEL ET SPA VITRE****</li>
+			<li>MERCURE BORDEAUX GARE</li>
+			<li>MERCURE TOURS CENTRE</li>
+		</ul>
+
+		<p>GROUPE VALOTEL</p>
+		<ul>
+			<li>MERCURE VALENCE</li>
+			<li>MERCURE PORTE D’ORLEANS</li>
+			<li>MERCURE GOLF D’ORLEANS</li>
+		</ul>
+
+		<p>GROUPE POMONA</p>
+		<ul>
+			<li>MERCURE BUSSY</li>
+		</ul>
+
+		<p>GROUPE LOREAT</p>
+		<ul>
+			<li>MERCURE ROUEN CHAMPS DE MARS</li>
+			<li>MERCURE VAL DE REUIL</li>
+		</ul>
+
+		<p>GROUPE VICKING</p>
+		<ul>
+			<li>MERCURE HONFLEUR</li>
+			<li>MERCURE GRANVILLE</li>
+		</ul>
+
+		<p>GROUPE BOISE FINANCE</p>
+		<ul>
+			<li>MERCURE TOURS NORD</li>
+			<li>MERCURE TOURS SUD</li>
+			<li>MERCURE COGNAC</li>
+		</ul>
+
+		<p>GROUPE GAULIN</p>
+		<ul>
+			<li>MERCURE BORDEAUX AEROPORT</li>
+			<li>MERCURE LAC</li>
+		</ul>
+
+		<p>GROUPE LELONG</p>
+		<ul>
+			<li>MERCURE BORDEAUX CITE</li>
+			<li>MERCURE LE MANS</li>
+			<li>MERCURE SHO (GAD)</li>
+			<li>MERCURE LA BAULE</li>
+		</ul>
+
+		<p>GROUPE FINANCIERE</p>
+		<ul>
+			<li>MERCURE LE TOUQUET</li>
+			<li>MERCURE BEAUVAIS</li>
+			<li>MERCURE ST LO</li>
+			<li>MERCURE POITIERS</li>
+			<li>MERCURE BOURGES</li>
+			<li>MERCURE NICE</li>
+			<li>MERCURE CAP 3000</li>
+			<li>MERCURE ROUEN CENTRE</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-13">
+		<ul>
+			<li>MILLENNIUM ROISSY***</li>
+			<li>MILLENNIUM HAUSSMANN****</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-14">
+		<ul>
+			<li>NANTES</li>
+			<li>LA DEFENSE****</li>
+			<li>ST BRIEUC****</li>
+			<li>SOPHIA ANTIPOLIS***</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-15">
+		<ul>
+			<li>HÔTEL SPA AQUABELLA****</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-16">
+		<ul>
+			<li>MAS DES HERBES BLANCHES****</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-17">
+		<ul>
+			<li>LE LOUVRE</li>
+			<li>OPERA MADELAINE</li>
+			<li>BERTHIER</li>
+			<li>GRAND BOULEVARD****</li>
+			<li>BLANCHE FONTAINE****</li>
+		</ul>
+	</div>
+
+	<div class="info-partner" style="display:none;" id="partner-18">
+		<p>Nos divers projets non répertoriés</p>
+		<ul>
+			<li>HÔTEL L’EMPIRE****</li>
+			<li>HÔTEL SAINT DOMINIQUE****</li>
+			<li>HÔTEL CLARION MELUN</li>
+			<li>SENARD****</li>
+			<li>HÔTEL DE FRANCE ET PATRIMOINE****</li>
+			<li>ELYSEE PARC MONTCEAU****</li>
+			<li>HÔTEL SEEKO’O****</li>
+			<li>HÔTEL LAUTRECOPERA</li>
+			<li>HÔTEL BEDFORD</li>
+			<li>HÔTEL LES HAUTS DE PASSY</li>
+			<li>HÔTEL LE LITTRE</li>
+			<li>HÔTEL LA FLECHE D’OR</li>
+			<li>HÔTEL SUNNY</li>
+			<li>HÔTEL ANGELINA</li>
+			<li>GRAND HÔTEL DE SUEZ</li>
+			<li>HÔTEL DES ARTS</li>
+			<li>HÔTEL LE CHALANS HÔTEL 81 DEAUVILLE****</li>
+			<li>CONCORDIA LE MANS****</li>
+			<li>HÔTEL DU PERCHE</li>
+			<li>HÔTEL TAYLOR</li>
+			<li>HÔTEL DES LICES</li>
+			<li>HÔTEL CHRYSTAL</li>
+			<li>HÔTEL TROCADERO</li>
+			<li>HOSTELLERIE DES CLEUNES</li>
+			<li>HÔTEL PARIS CABOURG</li>
+			<li>HÔTEL DULOUVRE</li>
+			<li>HÔTELJEANNE D’ARC</li>
+			<li>HÔTEL DU PARC</li>
+			<li>RELAIS ET ILE DE RE</li>
+			<li>CLOSERIE : CABOURG-HONFLEUR-DEAUVILLE</li>
+			<li>HÔTEL MONTROUGE</li>
+			<li>VILLA C LARA BAYEUX****</li>
+			<li>LE GRAND HÔTEL DE LA REINE NANCY****</li>
+			<li>HÔTEL CHURCHILL****</li>
+			<li>HÔTEL GLOBE****</li>
+			<li>HÔTEL ORLY****</li>
+			<li>HÔTEL PARKLANE****</li>
+			<li>VILLA AMBASSADEURS****</li>
+			<li>HÔTEL ARIAN****</li>
+			<li>HÔTEL PELLETIER***</li>
+			<li>HÔTEL DU GLOBE***</li>
+			<li>HÔTEL ST GERMAIN***</li>
+			<li>HÔTEL DE FLEURIE***</li>
+			<li>NEVADA TIGNES****</li>
+			<li>HOWARD****</li>
+			<li>PEARL PARK****</li>
+			<li>HÔTEL FANELLES****</li>
+			<li>HÔTEL DE SUEZ***</li>
+			<li>DREAM HÔTEL OPERA****</li>
+			<li>MAISON ST LOUIS***</li>
+			<li>HÔTEL MONTGRAND MARSEILLES</li>
+			<li>HÔTEL DES ARTS****</li>
+			<li>PRINCE ALBERT***</li>
+			<li>LOCOMO LYON***</li>
+			<li>PHILEAS****</li>
+			<li>LOCOMO ST LAZARE***</li>
+			<li>GRENELLE***</li>
+			<li>PASSY EIFFEL****</li>
+			<li>L’ESPERANCE***</li>
+		</ul>
 	</div>
 
 	<footer>
 		<div id="left-footer">
-			<h3>Quick Links</h3>
+			<h3>Liens rapides</h3>
 			<p>
 				<ul>
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.html">Accueil</a>
 					</li>
 					<li>
-						<a href="gallery.html">Gallery</a>
+						<a href="gallery.html">Galerie</a>
 					</li>
 					<li>
-						<a href="partners.html">Partners</a>
+						<a href="partners.html">Partenaires</a>
 					</li>
 					<li>
 						<a href="contact.html">Contact</a>
@@ -131,6 +489,29 @@
 			}
 		}
 	}, 3000);
+
+
+	var repeat = window.setInterval(changeText, 200);
+	let current = -1;
+	function changeText(){
+		var a = document.querySelector(".mcs-items-container");
+		var childnodes_a = a.childNodes;
+		var cnt = 0;
+		childnodes_a.forEach(function(item){
+			cnt += 1;
+			if(item.style.zIndex == 100 && current != cnt){
+				if(current != -1){
+					var elmt = document.querySelector("#partner-"+current.toString());
+					elmt.style.display = "none";
+				}
+				var cur_elmt = document.querySelector("#partner-"+cnt.toString());
+				cur_elmt.style.display = "block";
+				current = cnt;
+				console.log("we're currently on " + cnt);
+				return;
+			}
+		});
+	}
 
   </script>
 </body>

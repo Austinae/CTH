@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
     crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
-    <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
     <title>CTH</title>
 </head>
 
@@ -19,13 +15,13 @@
     <div id="slideout-menu">
         <ul>
             <li>
-                <a href="index.html">Home</a>
+                <a href="index.html">Accueil</a>
             </li>
             <li>
-                <a href="gallery.html">Gallery</a>
+                <a href="gallery.html">Galerie</a>
             </li>
             <li>
-                <a href="partners.html">Partners</a>
+                <a href="partners.html">Partenaires</a>
             </li>
             <li>
                 <a href="contact.html">Contact</a>
@@ -44,13 +40,13 @@
         </div>
         <ul>
             <li>
-                <a href="index.html">Home</a>
+                <a href="index.html">Accueil</a>
             </li>
             <li>
-                <a href="gallery.html">Gallery</a>
+                <a href="gallery.html">Galerie</a>
             </li>
             <li>
-                <a href="partners.html">Partners</a>
+                <a href="partners.html">Partenaires</a>
             </li>
             <li>
                 <a href="contact.html">Contact</a>
@@ -59,80 +55,88 @@
     </nav>
 
     
-  <main>
-    /*
-    <h2 class="section-heading" style="text-decoration: underline; margin-top:90px;position:relative;font-family: 'Playfair Display';font-size: 40px;">Gallery</h2>
-    
-    <div id="divgalleryscroll">
-        <div class="MagicScroll" data-options="mode: cover-flow;">
-            <img src="img/1.jpg"/>
-            <img src="img/2.jpg"/>
-            <img src="img/3.jpg"/>
-            <img src="img/4.jpg"/>
-            <img src="img/5.jpg"/>
-            <img src="img/6.jpg"/>
-            <img src="img/7.jpg"/>
-            <img src="img/8.jpg"/>
-            <img src="img/9.jpg"/>
-            <img src="img/10.jpg"/>
-            <img src="img/11.jpg"/>
-            <img src="img/12.jpg"/>
-            <img src="img/13.jpg"/>
-            <img src="img/14.jpg"/>
-            <img src="img/15.jpg"/>
-        </div>
-    </div>
-
-    <footer>
-        <div id="left-footer">
-            <h3>Quick Links</h3>
-            <p>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="partners.html">Partners</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </p>
-        </div>
-
-        <div id="right-footer">
-            <div id="social-media-footer">
-                <ul>
-                    <li>
-                        <a href="https://github.com/Austinae">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </li>
-                </ul>
+    <main>
+        /*
+        <h2 class="section-heading" style="text-decoration: underline; margin-top:90px;position:relative;font-family: 'Playfair Display';font-size: 40px;">Galerie</h2>
+        <div class="container" id="divgalleryscroll">
+            <div class="nslider">
+                <div class="nslider-wrapper">
+                    <img class="nslider-slide" src="img/2.jpg" id="slide-1"/>
+                    <img class="nslider-slide" src="img/4.jpg" id="slide-2"/>
+                    <img class="nslider-slide" src="img/6.jpg" id="slide-3"/>
+                    <img class="nslider-slide" src="img/5.jpg" id="slide-4"/>
+                    <img class="nslider-slide" src="img/7.jpg" id="slide-5"/>
+                    <img class="nslider-slide" src="img/8.jpg" id="slide-6"/>
+                    <img class="nslider-slide" src="img/10.jpg" id="slide-7"/>
+                    <img class="nslider-slide" src="img/13.jpg" id="slide-8"/>
+                    <img class="nslider-slide" src="img/14.jpg" id="slide-9"/>
+                </div>
+                <div class="nslider-button nslider-button-prev"></div>
+                <div class="nslider-button nslider-button-next"></div>
             </div>
-            <p>This website was developed by Austinae</p>
         </div>
-    </footer>
 
-  </main>
+        <footer>
+            <div id="left-footer">
+                <h3>Liens rapides</h3>
+                <p>
+                    <ul>
+                        <li>
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Galerie</a>
+                        </li>
+                        <li>
+                            <a href="partners.html">Partenaires</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
 
-  <script src="main.js"></script>
-  <script type="text/javascript">
-    setTimeout(function(){ 
-        var parent = $("div.MagicScroll.MagicScroll-horizontal").children();
-        for(var i=0; i<parent.length; i++){
-            if(parent[i].innerText == "Magic Scroll™ trial version"){
-                parent[i].remove();
-            }
-        }
-    }, 5000);
+            <div id="right-footer">
+                <div id="social-media-footer">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Austinae">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>This website was developed by Austinae</p>
+            </div>
+        </footer>
 
-  </script>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="nslider-main/js/nslider.js"></script>
+    <script>
+        const slider = new NSlider({ // Only 'elem' key required.
+            elem: document.querySelector('.container'), // A parent element of the slider
+            // NOTE: The specified parent element can have only 1 NSlider.
+            
+            // animation: true, // Animation opens with default settings
+            
+            animation: { // Custom Animation Options
+                 duration: 1000, // Milliseconds
+                 timingFunction: 'ease-in' // CSS's animation timing functions
+            },
+            
+            keyboardControl: true, // Slider can be controlled with right and left arrows
+            // currentSlide: 2, // Current slide index. It starts from 0 because it is in array logic
+            // prevButtonInner: '<', // Custom "previous" button content
+            // nextButtonInner: '>', // Custom "next" button content
+            dots: true, // Dots as the number of slides below the slider
+        });
+        
+        // Optional
+        // setInterval(() => slider.next(), 5000); // Every 5 seconds the slider automatically moves to the next slide
+        // setInterval(() => slider.prev(), 5000); // Every 5 seconds the slider automatically moves to the previous slide
+    </script>
 </body>
-
-
 </html>
