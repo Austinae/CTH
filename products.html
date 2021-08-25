@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>CTH</title>
+    <title>Produits CTH</title>
     <!-- Links -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
     crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Security verification -->
     <script type="text/javascript">
         var host = "www.confectiontextilehotelier.com";
@@ -15,9 +15,9 @@
             window.location.protocol = "https";
     </script>
     <!-- SEO -->
-    <meta name="keywords" content="cth, confectiontextilehotelier, confection, textile, hotelier, textile france, contact cth, arnaud guerrand"/>
-    <meta name="description" content="Page officiel de CTH, confectionneur de textile hotelier Français."/>
-    <meta name='subject' content="Page officiel de CTH, confectionneur de textile hotelier Français."/>
+    <meta name="keywords" content="cth, confectiontextilehotelier, confection, textile, hotelier, textile france, produits cth, arnaud guerrand"/>
+    <meta name="description" content="Description des produits disponible chez CTH, confectionneur de textile hotelier Français."/>
+    <meta name='subject' content="Description des produits disponible chez CTH, confectionneur de textile hotelier Français."/>
     <meta name='copyright' content=''/>
     <meta name='language' content='Fr'/>
     <!-- Author -->
@@ -27,10 +27,10 @@
     <!-- Dublin core metadata -->
     <meta name="dc.language" CONTENT="FR"/>
     <meta name="dc.source" CONTENT="https://www.confectiontextilehotelier.com"/>
-    <meta name="dc.title" CONTENT="Contact CTH"/>
+    <meta name="dc.title" CONTENT="Produits CTH"/>
     <meta name="dc.keywords" CONTENT="cth, confectiontextilehotelier, confection, textile, hotelier, textile france, produits cth, arnaud guerrand"/>
-    <meta name="dc.subject" CONTENT="Page officiel de CTH, confectionneur de textile hotelier Français."/>
-    <meta name="dc.description" CONTENT="Page officiel de CTH, confectionneur de textile hotelier Français."/>
+    <meta name="dc.subject" CONTENT="Description des produits disponible chez CTH, confectionneur de textile hotelier Français."/>
+    <meta name="dc.description" CONTENT="Description des produits disponible chez CTH, confectionneur de textile hotelier Français."/>
     <!-- Mobile -->
     <meta name='HandheldFriendly' content='True'/>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, height=device-height, minimal-ui"/>
@@ -38,7 +38,7 @@
     <meta name="mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="grey"/>
     <meta name="theme-color" content="#202125"/>
-    <meta name="apple-mobile-web-app-title" content="Contact CTH"/>
+    <meta name="apple-mobile-web-app-title" content="Produits CTH"/>
     <link rel="icon" sizes="285x285" href="./img/logos/cth_icon.png"/>
     <link rel="apple-touch-icon" href="./img/logos/cth_icon.png"/>
     <link rel='shortcut icon' href="./img/logos/cth_icon.png" type="image/x-icon" />
@@ -51,17 +51,17 @@
     <meta http-equiv='imagetoolbar' content='no'/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
     <!-- Open Graph -->
-    <meta property="og:title" content="Contact CTH"/>
+    <meta property="og:title" content="Produits CTH"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="./img/logos/cth_icon.png"/>
     <meta property="og:url" content="https://www.confectiontextilehotelier.com"/>
     <meta property="og:site_name" content="CTH"/>
-    <meta property="og:description" content="Page officiel de CTH, confectionneur de textile hotelier Français."/>
+    <meta property="og:description" content="Description des produits disponible chez CTH, confectionneur de textile hotelier Français."/>
     <!-- Twitter Card -->
     <meta name="twitter:card" content="Confectionneur de textile hotelier Français."/>
     <meta name="twitter:site" content="https://www.confectiontextilehotelier.com"/>
-    <meta name="twitter:title" content="Contact CTH"/>
-    <meta name="twitter:description" content="Page officiel de CTH, confectionneur de textile hotelier Français."/>
+    <meta name="twitter:title" content="Produits CTH"/>
+    <meta name="twitter:description" content="Description des produits disponible chez CTH, confectionneur de textile hotelier Français."/>
     <meta name="twitter:image" content="https://live.staticflickr.com/611/31155729904_a27c06b953_c.jpg"/>
     <!-- Misc -->
     <meta charset='UTF-8'>
@@ -70,7 +70,7 @@
     <meta name='identifier-URL' content='https://www.confectiontextilehotelier.com'>
     <meta name='coverage' content='Worldwide'>
     <meta name='distribution' content='Global'>
-    <meta name='subtitle' content="Page officiel de CTH, confectionneur de textile hotelier Français.">
+    <meta name='subtitle' content="Description des produits disponible chez CTH, confectionneur de textile hotelier Français.">
     <meta name='target' content='all'>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -133,71 +133,88 @@
         </ul>
     </nav>
 
-    <div id="banner">
-        <h1>Confection Textile Hotelier</h1>
-    </div>
 
-    <main>
-        <h2 class="section-heading">Qui sommes-nous?</h2>
+  <main>
 
-        <p class="displayinfo">
-            Fondée en France, CONFECTION TEXTILE HOTELIER est une entreprise française spécialisée dans la fabrication de textiles. Que ce soit pour des tringles ou des rideaux, la fabrication est française et les découpes sont faites par nos ouvrières à Brionne. Notre secteur d'activité est majoritairement en France mais nous sommes ouverts à de nouvelles opportunités à l'étranger. 
-        </p>
+    /*
+    <h2 class="section-heading" style="text-decoration: underline; margin-top:90px;margin-bottom:40px;position:relative;font-family: 'Playfair Display';font-size: 40px;">Produits</h2>
 
-        <img class="image-rz" src="img/brionne.png">
+    <section class="product">
+        <div>
+            <p style="text-decoration: underline;">Fenêtres:</p>
+            <ul>
+                <li>Rideaux</li>
+                <li>Rails</li>
+                <li>Voilages</li>
+            </ul>
+        </div>
+        <img class src="./img/curtains.jpg">
+    </section>
+    <section class="product">
+        <div>
+            <p style="text-decoration: underline;">Lits:</p>
+            <ul>
+                <li>Plaids</li>
+                <li>Coussins</li>
+                <li>Traversins</li>
+                <li>Cache-sommiers</li>
+            </ul>
+        </div>
+        <img src="./img/bed.jpg">
+    </section>
+    <section class="product">
+        <div>
+            <p style="text-decoration: underline;">Services:</p>
+            <ul>
+                <li>Prise de mesures</li>
+                <li>Poses</li>
+            </ul>
+        </div>
+        <img src="./img/measurements.jpg">
+    </section>
 
-        <p class="displayinfo">
-            Nous sommes à la recherche de la perfection pour nos clients et c'est pour cela qu'un nombre considérable d'hôtels nous ont déjà fait confiance. et sont satisfaits du travail que nous avons fourni, alors pourquoi ne pas l'essayer par vous-même ? Pour avoir plus d'informations sur les hôtels que nous avons fait, je vous invite à visiter la page <a style="color:inherit" href="partners.html"><i>partenaires</i></a>.
-        </p>
 
-        <img class="image-rz" src="img/sowing.jpg">
+    <footer>
+        <div id="left-footer">
+            <h3>Liens rapides</h3>
+            <p>
+                <ul>
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Galerie</a>
+                    </li>
+                    <li>
+                        <a href="partners.html">Partenaires</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Produits</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
 
-        <p class="displayinfo">
-            Nous vous invitons aussi à jeter un coup d'oeil à notre page de <a style="color:inherit" href="partners.html"><i>galerie</i> </a> qui est un affichage d'images des précédents hôtels que vous avons fait et aussi n'hésitez pas à nous contacter pour plus d'informations sur la page <a style="color:inherit" href="partners.html"><i>contact</i> </a><br><br>
-            Nous remercions ceux qui nous ont fait confiance: CHRISTAIN LACROIX/ SANDRINE ALOUF/ FREDERIC IZERMAN/MICHEL DE ROBERT/OLIVIER SABRAN/ GORDANA GAZOLLA/OPTION D’INTERIEUR/JULIE GAUTRON/FABIEN ROQUE/FRANCK COUSIN/MARIE-AGNES LOUBOUTIN/CATY BRAS/ALEXANDRE DANAN.
-        </p>
-
-        <footer>
-            <div id="left-footer">
-                <h3>Liens rapides</h3>
-                <p>
-                    <ul>
-                        <li>
-                            <a href="index.html">Accueil</a>
-                        </li>
-                        <li>
-                            <a href="gallery.html">Galerie</a>
-                        </li>
-                        <li>
-                            <a href="partners.html">Partenaires</a>
-                        </li>
-                        <li>
-                            <a href="products.html">Produits</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </p>
+        <div id="right-footer">
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Austinae">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
+            <p>This website was developed by Austinae</p>
+        </div>
+    </footer>
 
-            <div id="right-footer">
-                <div id="social-media-footer">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/Austinae">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <p>This website was developed by Austinae</p>
-            </div>
-        </footer>
+  </main>
 
-    </main>
-
-    <script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
