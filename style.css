@@ -464,6 +464,10 @@ footer #social-media-footer ul li:hover a .fa-github {
     margin-right:auto; 
     padding-bottom:5px;
   }
+
+  .displayinfo {
+    width: 90%;
+  }
 }
 
 @media (max-width: 1024px) {
