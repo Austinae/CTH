@@ -418,28 +418,17 @@ footer #social-media-footer ul li:hover a .fa-github {
 
 /* Products page */
 
-.product {
-  text-align: center;
-  width: 60%;
+.product-img {
+  display: block;
+  width: 800px;
   margin: 30px auto 30px auto;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-column-gap: 20px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  -webkit-box-shadow: 0px 7px 15px 5px rgba(0,0,0,0.62); 
+  box-shadow: 0px 7px 15px 5px rgba(0,0,0,0.62);
 }
 
-.product img{
-  width: 100%;
-}
-
-.product p{
+.product-desc {
+  text-align: center;
   font-size: 2.5em;
-}
-
-.product ul{
-    list-style-type: none;
-    padding-left: 20px;
-    font-size: 2em;
 }
 
 /* Media Queries */
@@ -494,8 +483,8 @@ footer #social-media-footer ul li:hover a .fa-github {
     display: none;
   }
 
-  .product {
-    width: 95%;
+  .product-img {
+    width: 700px;
   }
 }
 
@@ -533,13 +522,13 @@ footer #social-media-footer ul li:hover a .fa-github {
     transition: 0.4s;
   }
 
-  .product{
-    grid-template-columns: 1fr;
-  }
-
   #divgalleryscroll {
     width: 550px;
     height: 440px;
+  }
+
+  .product-img {
+    width: 570px;
   }
 }
 
@@ -549,6 +538,10 @@ footer #social-media-footer ul li:hover a .fa-github {
   #divgalleryscroll {
     width: 450px;
     height: 360px;
+  }
+
+  .product-img {
+    width: 450px;
   }
 }
 
@@ -565,10 +558,16 @@ footer #social-media-footer ul li:hover a .fa-github {
     width: 280px;
     height: 224px;
   }
+
+  .product-img {
+    width: 300px;
+  }
 }
 
 
 @media (max-width: 320px) {
-
+  .product-img {
+    width: 250px;
+  }
 }
 
