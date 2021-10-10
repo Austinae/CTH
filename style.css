@@ -383,12 +383,15 @@ footer #social-media-footer ul li:hover a .fa-github {
 
 /* Gallery page */
 
+.nslider-dots {
+  background-color: #606E6E;
+}
 
 #divgalleryscroll{
   margin: 10px auto 30px auto;
   display: block;
-  width: 900px;
-  height: 720px;
+  width: 700px;
+  height: 560px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
